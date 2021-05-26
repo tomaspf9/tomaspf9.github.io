@@ -1,0 +1,86 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 18px;
+  margin:0;
+  background-color: black;
+}
+h1, p{
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding: 30px;
+  text-shadow:0 2px black;
+}
+h2{
+  color: rgba(0, 0, 0, 0);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1DB954;
+  border-radius: 20px;
+}
+.banner{
+  background-image: url(/wallpaper.jpg);
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.btn-verde{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  margin: 10%;
+}
+.btn-verde:hover {background-color: #1DB954}
+
+.btn-verde:active {
+  background-color: #050505;
+  box-shadow: 0 5px rgb(3, 3, 3);
+  transform: translateY(4px)
+}
+.cuadro{
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  height: 20vh;
+  margin: 20px;
+  color: #050505;
+  background-color: black;
+  padding: 50px
+}
+.imagen{
+  width: 250px;
+  height: 200px;
+  margin: 20px 30px
+}
+.genero{
+  width: 300px;
+  height: 300px;
+  background-color:#fafafa;
+  box-shadow:0 0 16px #1DB954;
+  margin: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+.musica{
+  display: flex;
+  justify-content: space-around;
+}
+.cuadro h2{
+color: white;
+font-size: 40px;
+text-align: center;
+}
+p{
+  text-align: center;
+}
